@@ -16,10 +16,14 @@ const Contact = () => {
 
   const handleSubmit = (e) => {
     e.preventDefault();
-    // Handle form submission here
-    console.log('Form submitted:', formData);
-    alert('Thank you for your message! I\'ll get back to you soon.');
-    setFormData({ name: '', email: '', message: '' });
+  // Build mailto link to open user's email client
+  const to = 'osafoparrypatrickjoseph@gmail.com';
+  const subject = encodeURIComponent(`Website message from ${formData.name}`);
+  const body = encodeURIComponent(`Name: ${formData.name}\nEmail: ${formData.email}\n\n${formData.message}`);
+  const mailto = `mailto:${to}?subject=${subject}&body=${body}`;
+  window.location.href = mailto;
+  // reset form after opening mail client
+  setFormData({ name: '', email: '', message: '' });
   };
 
   return (

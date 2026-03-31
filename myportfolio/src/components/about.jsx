@@ -95,7 +95,6 @@ const About = () => {
 								<ul className="list-disc pl-5 text-gray-700 space-y-2">
 									<li>Built responsive production apps with React and Tailwind CSS.</li>
 									<li>Improved performance and accessibility for multiple projects.</li>
-									<li>Designed and implemented reusable component libraries.</li>
 								</ul>
 							</div>
 						</div>

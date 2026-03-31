@@ -46,12 +46,16 @@ const Home = () => {
       {/* overlay for better text contrast */}
       <div className="absolute inset-0 bg-black/40 z-10" aria-hidden="true" />
 
-      <div className="relative z-20 text-center px-4">
+      <div className="relative z-20 max-w-2xl text-center px-5 bg-gradient-to-r from-purple-600 to-pink-500 rounded-lg">
         <h1 className="text-5xl font-bold text-white mb-4">Welcome to My Portfolio</h1>
         <p className="text-xl text-gray-100 mb-8">I'm a passionate frontend engineer ready to create amazing web experiences</p>
+        <p className="text-xl text-gray-100 mb-8">
+          I specialize in building responsive, user-centric interfaces using JavaScript, <br /> React, and Tailwind CSS, 
+          while maintaining a strong interest in UI/UX design.
+        </p>
         <div className="space-x-4">
-          <a href="#about" className="bg-indigo-600 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition duration-300">Learn More</a>
-          <Link to="/projects" className="border border-indigo-600 text-indigo-100 px-6 py-3 rounded-lg hover:bg-indigo-50 hover:text-indigo-800 transition duration-300">View Projects</Link>
+          <a href="#about" className="bg-gradient-to-tr from-indigo-400 via-pink-400 to-yellow-300 text-white px-6 py-3 rounded-lg hover:bg-indigo-700 transition duration-300">Learn More</a>
+          <Link to="/projects" className="bg-gradient-to-tr from-indigo-400 via-pink-400 to-red-300 text-indigo-100 px-6 py-3 rounded-lg hover:bg-indigo-50 hover:text-indigo-800 transition duration-300">View Projects</Link>
         </div>
       </div>
     </div>

@@ -1,11 +1,12 @@
 import './App.css'
-import photo from './assets/Joe.png'
+import photo from './assets/OB.png'
 import { BrowserRouter as Router, Routes, Route, Link } from 'react-router-dom'
 import Home from './components/home'
 import About from './components/about'
 import Projects from './components/projects'
 import Contact from './components/contact'
 import Resume from './components/resume'
+import Skills from './components/skills'
 
 function App() {
   return (
@@ -16,7 +17,7 @@ function App() {
             <div className="flex justify-between items-center h-15">
               {/* Logo left */}
               <Link to="/" className="flex items-center space-x-1">
-                <img src={photo} alt="logo" className="h-8 w-8" />
+                <img src={photo} alt="logo" className="h-8 w-8 rounded-full" />
                 <span className="font-semibold text-gray-500 text-lg">Osafo Builds</span>
               </Link>
               {/* Links right */}
@@ -24,6 +25,7 @@ function App() {
                 <Link to="/" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Home</Link>
                 <Link to="/about" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">About</Link>
                 <Link to="/projects" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Projects</Link>
+                <Link to="/skills" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Skills</Link>
                 <Link to="/resume" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Resume</Link>
                 <Link to="/contact" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Contact</Link>
               </div>
@@ -34,6 +36,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
+          <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

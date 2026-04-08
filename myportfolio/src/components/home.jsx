@@ -22,7 +22,7 @@ const Home = () => {
           Specializing in responsive, user-centric interfaces with strong UI/UX focus.
         </p>
         <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-          <a href="#about" className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-10 py-4 rounded-xl text-lg font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-xl">Learn More</a>
+          <a href="/about" className="bg-gradient-to-r from-indigo-500 to-purple-600 text-white px-10 py-4 rounded-xl text-lg font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-xl">Learn More</a>
           <Link to="/projects" className="bg-gradient-to-r from-purple-500 to-pink-600 text-white px-10 py-4 rounded-xl text-lg font-semibold hover:shadow-2xl hover:scale-105 transition-all duration-300 shadow-xl">View Projects</Link>
         </div>
       </div>

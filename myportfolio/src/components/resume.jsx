@@ -3,24 +3,29 @@ import React from 'react';
 const Resume = () => {
   const experience = [
     {
-      title: 'Frontend Developer Intern',
-      company: 'Tech Startup',
-      period: '2023 - Present',
-      description: 'Developed responsive web applications using React and modern CSS frameworks.'
+      title: 'IT Support Intern',
+      company: 'Electricity Company of Ghana',
+      period: 'October 2024 - November 2024',
+      description: 'Provided technical support and troubleshooting for internal teams and clients.'
     },
     {
-      title: 'Web Development Bootcamp',
-      company: 'Coding Academy',
-      period: '2023',
+      title: 'Intern',
+      company: 'Electricity Company of Ghana',
+      period: 'October 2025 - November 2025',
       description: 'Completed intensive training in full-stack web development technologies.'
     }
   ];
 
   const education = [
     {
-      degree: 'Bachelor of Science in Computer Science',
-      school: 'University Name',
-      year: '2023'
+      degree: 'Bachelor of Science in Information Systems and Technology',
+      school: 'University of Mines and Technology',
+      year: '2023 - 2026'
+    },
+    {
+      degree: 'High School Certificate',
+      school: 'Mfantsipim School',
+      year: '2019 - 2022'
     }
   ];
 
@@ -33,10 +38,10 @@ const Resume = () => {
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">Experience</h3>
             <div className="space-y-6">
               {experience.map((exp, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                  <h4 className="text-xl font-semibold text-gray-800 mb-2">{exp.title}</h4>
-                  <p className="text-indigo-600 mb-2">{exp.company} | {exp.period}</p>
-                  <p className="text-gray-600">{exp.description}</p>
+                <div key={index} className="bg-gradient-to-r from-indigo-500 to-red-400 p-6 rounded-lg shadow-md">
+                  <h4 className="text-xl font-semibold text-white mb-2">{exp.title}</h4>
+                  <p className="text-indigo-200 mb-2">{exp.company} | {exp.period}</p>
+                  <p className="text-gray-200">{exp.description}</p>
                 </div>
               ))}
             </div>
@@ -45,10 +50,10 @@ const Resume = () => {
             <h3 className="text-2xl font-semibold text-gray-800 mb-6">Education</h3>
             <div className="space-y-6">
               {education.map((edu, index) => (
-                <div key={index} className="bg-white p-6 rounded-lg shadow-md">
-                  <h4 className="text-xl font-semibold text-gray-800 mb-2">{edu.degree}</h4>
-                  <p className="text-indigo-600 mb-2">{edu.school}</p>
-                  <p className="text-gray-600">{edu.year}</p>
+                <div key={index} className="bg-gradient-to-r from-indigo-500 to-red-400 p-6 rounded-lg shadow-md">
+                  <h4 className="text-xl font-semibold text-white mb-2">{edu.degree}</h4>
+                  <p className="text-gray-200 mb-2">{edu.school}</p>
+                  <p className="text-gray-200">{edu.year}</p>
                 </div>
               ))}
             </div>

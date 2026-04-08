@@ -1,6 +1,7 @@
 
 import React, { useMemo } from 'react';
 import { Link } from 'react-router-dom';
+import photo from '../images/photo.jpg';
 
 // Prefer explicit image in src/images if present
 let preferredImage = null;
@@ -45,22 +46,24 @@ const About = () => {
 			<div className="min-h-screen py-16 px-4 bg-gradient-to-br from-indigo-50 via-white to-pink-50">
 				<div className="max-w-5xl mx-auto">
 					<div className="bg-white/80 backdrop-blur-md rounded-2xl shadow-xl p-8 md:p-12 grid md:grid-cols-3 gap-8 items-center">
+						
 						{/* Profile column */}
 						{profileSrc && (
 							<div className="md:col-span-1 flex flex-col items-center md:items-start">
 								<div className="rounded-full p-1 bg-gradient-to-tr from-indigo-400 via-pink-400 to-yellow-300">
 									<img
-										src={profileSrc}
+										src={photo}
 										alt="Profile"
 										className="w-44 h-44 rounded-full object-cover block shadow-2xl border-4 border-white"
 									/>
 								</div>
 								<h3 className="mt-6 text-2xl font-semibold text-gray-800">Hello, I'm Patrick Joseph Osafo-Parry</h3>
 								<p className="text-sm text-gray-600 mt-2">Frontend Engineer · UI/UX enthusiast</p>
-																<div className="mt-6 flex gap-3">
-																	<a href="mailto:osafoparrypatrickjoseph@gmail.com" className="inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-md shadow-sm hover:bg-indigo-700 transition">Contact</a>
-																	<Link to="/resume" className="inline-flex items-center px-4 py-2 bg-white border border-gray-200 text-gray-800 rounded-md shadow-sm hover:shadow-md transition">Resume</Link>
-																</div>
+									<div className="mt-6 flex gap-3">
+										<a href="mailto:osafoparrypatrickjoseph@gmail.com" className="inline-flex items-center px-4 py-2 bg-indigo-600 text-white rounded-md shadow-sm hover:bg-indigo-700 transition">Contact</a>
+										<Link to="/skills" className="inline-flex items-center px-4 py-2 bg-white border border-gray-200 text-gray-800 rounded-md shadow-sm hover:shadow-md transition bg-gradient-to-r from-blue-400 to-yellow-300">Skills</Link>
+										<Link to="/resume" className="inline-flex items-center px-4 py-2 bg-white border border-gray-200 text-gray-800 rounded-md shadow-sm hover:shadow-md transition bg-gradient-to-r from-red-400 to-yellow-300">Resume</Link>
+									</div>
 							</div>
 						)}
 

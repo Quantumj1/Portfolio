@@ -30,11 +30,13 @@ const Contact = () => {
   return (
     <div className="bg-cover bg-center bg-fixed min-h-screen w-screen overflow-hidden relative z-0" style={{ backgroundImage: `url(${bg})` }}>
       <div className="max-w-4xl mx-auto">
-        <h2 className="text-4xl font-bold text-gray-800 mb-12 text-center">Get In Touch</h2>
+        <h2 className="text-4xl font-bold bg-gradient-to-r from-indigo-400 via-red-500 to-pink-500 
+        bg-clip-text text-transparent drop-shadow-2xl leading-tight mb-12 mt-10 text-center">Get In Touch</h2>
         <div className="grid md:grid-cols-2 gap-12">
           <div>
-            <h3 className="text-2xl font-semibold text-gray-800 mb-4">Let's Connect</h3>
-            <p className="text-gray-600 mb-6">
+            <h3 className="text-2xl font-semibold bg-gradient-to-r from-red-400 via-yellow-500 to-blue-500 
+              bg-clip-text text-transparent drop-shadow-2xl leading-tight mb-4">Let's Connect</h3>
+            <p className="text-yellow-600 mb-6">
               I'm always interested in new opportunities and collaborations.
               Feel free to reach out if you'd like to work together or just say hello!
             </p>
@@ -43,14 +45,16 @@ const Contact = () => {
                 <svg className="w-6 h-6 text-indigo-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M3 8l7.89 4.26a2 2 0 002.22 0L21 8M5 19h14a2 2 0 002-2V7a2 2 0 00-2-2H5a2 2 0 00-2 2v10a2 2 0 002 2z" />
                 </svg>
-                <span className="text-gray-700">[your.email@example.com]</span>
+                <span className="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 
+                  bg-clip-text text-transparent drop-shadow-2xl leading-tight">[osafoparrypatrickjoseph@gmail.com]</span>
               </div>
               <div className="flex items-center">
                 <svg className="w-6 h-6 text-indigo-600 mr-3" fill="none" stroke="currentColor" viewBox="0 0 24 24">
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M17.657 16.657L13.414 20.9a1.998 1.998 0 01-2.827 0l-4.244-4.243a8 8 0 1111.314 0z" />
                   <path strokeLinecap="round" strokeLinejoin="round" strokeWidth={2} d="M15 11a3 3 0 11-6 0 3 3 0 016 0z" />
                 </svg>
-                <span className="text-gray-700">[Your City, Country]</span>
+                <span className="bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 
+                  bg-clip-text text-transparent drop-shadow-2xl leading-tight">[Tema, Ghana]</span>
               </div>
             </div>
           </div>

@@ -6,13 +6,16 @@ const Resume = () => {
     <div className="bg-cover bg-center bg-fixed min-h-screen w-screen overflow-hidden relative z-0" style={{ backgroundImage: `url(${bg})` }}>
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
-          <h1 className="text-4xl font-bold text-gray-800 mb-4">Patrick Joseph Osafo-Parry</h1>
+          <h1 className="text-4xl bg-gradient-to-r from-yellow-400 via-purple-500 to-pink-500 
+        bg-clip-text text-transparent drop-shadow-2xl leading-tight mb-4 mt-10">Patrick Joseph Osafo-Parry</h1>
           <p className="text-xl text-gray-600 mb-2">Tarkwa, Ghana | +233 24 864 0124 | osafoparrypatrickjoseph@gmail.com</p>
-          <p className="text-xl text-indigo-600">LinkedIn: www.linkedin.com/in/patrick-joseph-osafo-parry-7a2a99266</p>
+          <a href="http://www.linkedin.com/in/patrick-joseph-osafo-parry-7a2a99266" className="text-indigo-400 hover:underline">
+          LinkedIn Profile</a>
         </div>
 
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Professional Summary</h2>
+          <h2 className="text-3xl font-bold mb-6 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 
+        bg-clip-text text-transparent drop-shadow-2xl leading-tight">Professional Summary</h2>
           <div className="bg-gradient-to-r from-indigo-500 to-red-400 p-8 rounded-lg shadow-md">
             <p className="text-gray-100 text-lg leading-relaxed">
               Results-driven Information Technology student at UMaT specializing on full-stack development and system analysis. 
@@ -23,7 +26,8 @@ const Resume = () => {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Education</h2>
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-indigo-400 via-green-500 to-pink-500 
+        bg-clip-text text-transparent drop-shadow-2xl leading-tight mb-6">Education</h2>
           <div className="grid md:grid-cols-2 gap-6">
             <div className="bg-gradient-to-r from-indigo-500 to-red-400 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold text-white mb-2">BSc in Information Technology (Candidate)</h3>
@@ -39,7 +43,8 @@ const Resume = () => {
         </section>
 
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Technical Experience</h2>
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-indigo-400 via-blue-900 to-pink-500 
+        bg-clip-text text-transparent drop-shadow-2xl leading-tight mb-6">Technical Experience</h2>
           <div className="space-y-6">
             <div className="bg-gradient-to-r from-indigo-500 to-red-400 p-6 rounded-lg shadow-md">
               <h3 className="text-xl font-semibold text-white mb-2">IT Support Assistant (Intern)</h3>
@@ -63,7 +68,8 @@ const Resume = () => {
 
         <div className="grid md:grid-cols-2 gap-12 mb-12">
           <section>
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Technical Skills</h2>
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-purple-600 via-purple-200 to-pink-700 
+        bg-clip-text text-transparent drop-shadow-2xl leading-tight mb-6">Technical Skills</h2>
             <div className="bg-gradient-to-r from-indigo-500 to-red-400 p-6 rounded-lg shadow-md">
               <ul className="text-gray-200 space-y-2">
                 <li>Programming: JavaScript (Node.js, React), Python (Anaconda), HTML5, CSS3 (Tailwind/Bootstrap).</li>
@@ -74,7 +80,8 @@ const Resume = () => {
             </div>
           </section>
           <section>
-            <h2 className="text-3xl font-bold text-gray-800 mb-6">Core Competencies & Certifications</h2>
+            <h2 className="text-3xl font-bold bg-gradient-to-r from-indigo-400 via-yellow-500 to-pink-500 
+        bg-clip-text text-transparent drop-shadow-2xl leading-tight mb-6">Core Competencies & Certifications</h2>
             <div className="bg-gradient-to-r from-indigo-500 to-red-400 p-6 rounded-lg shadow-md">
               <ul className="text-gray-200 space-y-2">
                 <li>Software Engineering: Frontend Development, API Integration, Responsive Design.</li>
@@ -89,7 +96,8 @@ const Resume = () => {
         </div>
 
         <section className="mb-12">
-          <h2 className="text-3xl font-bold text-gray-800 mb-6">Languages</h2>
+          <h2 className="text-3xl font-bold bg-gradient-to-r from-indigo-400 via-green-500 to-pink-500 
+        bg-clip-text text-transparent drop-shadow-2xl leading-tight mb-6">Languages</h2>
           <div className="bg-gradient-to-r from-indigo-500 to-red-400 p-6 rounded-lg shadow-md">
             <p className="text-gray-200 text-lg">English: Expert | Twi: Native | Spanish, French, and Japanese: Beginner</p>
           </div>

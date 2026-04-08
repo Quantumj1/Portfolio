@@ -1,8 +1,9 @@
 import React from 'react';
+import bg from '../assets/bg.jpg';
 
 const Resume = () => {
   return (
-    <div className="min-h-screen bg-gray-50 py-16 px-4">
+    <div className="bg-cover bg-center bg-fixed min-h-screen w-screen overflow-hidden relative z-0" style={{ backgroundImage: `url(${bg})` }}>
       <div className="max-w-4xl mx-auto">
         <div className="text-center mb-12">
           <h1 className="text-4xl font-bold text-gray-800 mb-4">Patrick Joseph Osafo-Parry</h1>

@@ -64,9 +64,9 @@ const About = () => {
 									<div className="mt-6 flex gap-3">
 										<a href="mailto:osafoparrypatrickjoseph@gmail.com" className="inline-flex items-center px-4 py-2 
 										bg-indigo-600 text-white rounded-md shadow-sm hover:bg-indigo-700 transition">Contact</a>
-										<Link to="/skills" className="inline-flex items-center px-4 py-2 bg-white border border-gray-200 
+										<Link to="/contact" className="inline-flex items-center px-4 py-2 bg-white border border-gray-200 
 										text-gray-800 rounded-md shadow-sm hover:shadow-md transition bg-gradient-to-r from-blue-400 
-										to-yellow-300">Skills</Link>
+										to-yellow-300">Contact</Link>
 										<Link to="/resume" className="inline-flex items-center px-4 py-2 bg-white border border-gray-200 
 										text-gray-800 rounded-md shadow-sm hover:shadow-md transition bg-gradient-to-r from-red-400 
 										to-yellow-300">Resume</Link>

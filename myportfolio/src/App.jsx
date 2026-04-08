@@ -6,7 +6,6 @@ import About from './components/about'
 import Projects from './components/projects'
 import Contact from './components/contact'
 import Resume from './components/resume'
-import Skills from './components/skills'
 
 function App() {
   return (
@@ -25,7 +24,6 @@ function App() {
                 <Link to="/" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Home</Link>
                 <Link to="/about" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">About</Link>
                 <Link to="/projects" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Projects</Link>
-                <Link to="/skills" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Skills</Link>
                 <Link to="/resume" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Resume</Link>
                 <Link to="/contact" className="text-gray-500 font-semibold hover:text-indigo-500 transition duration-300">Contact</Link>
               </div>
@@ -36,7 +34,6 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
           <Route path="/projects" element={<Projects />} />
-          <Route path="/skills" element={<Skills />} />
           <Route path="/resume" element={<Resume />} />
           <Route path="/contact" element={<Contact />} />
         </Routes>

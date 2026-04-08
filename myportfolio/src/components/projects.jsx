@@ -47,12 +47,13 @@ const Projects = () => {
         <h2 className="text-4xl font-bold mb-12 mt-12 text-center bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 
         bg-clip-text text-transparent drop-shadow-2xl leading-tight">My Projects</h2>
         <div className='flex justify-between mb-8'>
-          <Link to="/home" className="text-indigo-600 hover:text-indigo-800 text-sm font-medium border rounded px-2 py-1">Back</Link>
-          <Link to="/skills" className="text-indigo-600 hover:text-indigo-800 text-sm font-medium border rounded px-2 py-1">Skills</Link>
+          <Link to="/home" className="text-indigo-600 hover:text-indigo-800 text-sm font-medium border rounded px-2 py-1 bg-gradient-to-r
+           from-indigo-400 via-purple-500 to-pink-500">Back</Link>
         </div>
         <div className="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
           {projects.map((project, index) => (
-            <div key={index} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300">
+            <div key={index} className="bg-white rounded-lg shadow-md p-6 hover:shadow-lg transition duration-300 flex flex-col 
+            justify-between bg-gradient-to-t from-indigo-300 to-pink-600">
               <h3 className="text-xl font-semibold text-gray-800 mb-3">{project.title}</h3>
               <p className="text-gray-600 mb-4">{project.description}</p>
               <div className="mb-4">

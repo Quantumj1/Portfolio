@@ -1,4 +1,5 @@
 import React, { useState } from 'react';
+import bg from '../assets/bg.jpg';
 
 const Contact = () => {
   const [formData, setFormData] = useState({
@@ -27,7 +28,7 @@ const Contact = () => {
   };
 
   return (
-    <div className="min-h-screen bg-gray-50 py-16 px-4">
+    <div className="bg-cover bg-center bg-fixed min-h-screen w-screen overflow-hidden relative z-0" style={{ backgroundImage: `url(${bg})` }}>
       <div className="max-w-4xl mx-auto">
         <h2 className="text-4xl font-bold text-gray-800 mb-12 text-center">Get In Touch</h2>
         <div className="grid md:grid-cols-2 gap-12">

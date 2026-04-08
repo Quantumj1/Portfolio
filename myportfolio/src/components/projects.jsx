@@ -9,7 +9,7 @@ const Projects = () => {
       description: 'This very site! Modern personal portfolio built with React, Tailwind CSS, and Vite. Includes smooth animations and responsive navigation.',
       technologies: ['React', 'Tailwind CSS', 'Vite', 'React Router'],
       github: 'https://github.com/Quantumj1/Portfolio.git',
-      demo: 'http://localhost:5173'
+      demo: 'https://osafobuild.vercel.app/'
     },
     {
       title: 'Currency Converter',

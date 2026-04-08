@@ -2,7 +2,7 @@
 import React, { useMemo } from 'react';
 import bg from '../assets/bg.jpg';
 import { Link } from 'react-router-dom';
-import photo from '../images/photo.jpg';
+import pat from '../images/pat.jpg';
 
 // Prefer explicit image in src/images if present
 let preferredImage = null;
@@ -54,7 +54,7 @@ const About = () => {
 							<div className="md:col-span-1 flex flex-col items-center md:items-start">
 								<div className="rounded-full p-1 bg-gradient-to-tr from-indigo-400 via-pink-400 to-yellow-300">
 									<img
-										src={photo}
+										src={pat}
 										alt="Profile"
 										className="w-44 h-44 rounded-full object-cover block shadow-2xl border-4 border-white"
 									/>

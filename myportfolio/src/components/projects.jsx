@@ -5,39 +5,18 @@ import { Link } from 'react-router-dom';
 const Projects = () => {
   const projects = [
     {
-      title: 'E-Commerce Store',
-      description: 'Full-stack e-commerce platform with shopping cart, user authentication, and payment integration. Features responsive design and admin dashboard for product management.',
-      technologies: ['React', 'Node.js', 'MongoDB', 'Tailwind CSS', 'Stripe'],
-      github: 'https://github.com/yourusername/ecommerce-store',
-      demo: 'https://ecommerce-store.vercel.app'
-    },
-    {
-      title: 'Data Dashboard',
-      description: 'Interactive analytics dashboard with real-time charts and data filtering. Built with modern React hooks and responsive grid layout.',
-      technologies: ['React', 'Chart.js', 'Tailwind CSS', 'Zustand'],
-      github: 'https://github.com/yourusername/data-dashboard',
-      demo: 'https://data-dashboard.netlify.app'
-    },
-    {
-      title: 'Task Management App',
-      description: 'Collaborative task tracker with drag-and-drop, categories, and real-time updates via WebSockets. Mobile-first design.',
-      technologies: ['React', 'Firebase', 'Tailwind CSS', 'Socket.io'],
-      github: 'https://github.com/yourusername/task-manager',
-      demo: 'https://task-manager.vercel.app'
-    },
-    {
       title: 'Portfolio Website',
       description: 'This very site! Modern personal portfolio built with React, Tailwind CSS, and Vite. Includes smooth animations and responsive navigation.',
       technologies: ['React', 'Tailwind CSS', 'Vite', 'React Router'],
-      github: 'https://github.com/cleme/Portfolio',
+      github: 'https://github.com/Quantumj1/Portfolio.git',
       demo: 'http://localhost:5173'
     },
     {
-      title: 'Chat Application',
-      description: 'Real-time messaging app with user rooms, typing indicators, and file sharing. Secure authentication and end-to-end encryption simulation.',
-      technologies: ['React', 'Node.js', 'Socket.io', 'Tailwind CSS'],
-      github: 'https://github.com/yourusername/chat-app',
-      demo: 'https://chat-app-demo.vercel.app'
+      title: 'Currency Converter',
+      description: 'Real-time currency converter app with live exchange rates and historical data charts.',
+      technologies: ['React', 'Node.js', 'Express', 'Tailwind CSS'],
+      github: 'https://github.com/Quantumj1/Currency_Converter-capstone-.git',
+      demo: 'https://currency-converter-demo.vercel.app'
     }
   ];
 

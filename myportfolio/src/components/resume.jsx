@@ -61,11 +61,13 @@ const Resume = () => {
         </div>
         <div className="mt-12 text-center">
           <a
-            href="/path-to-your-resume.pdf"
-            download
+            href="https://example.com/your-resume.pdf"
+            download="Patrick_Osafo_Resume.pdf"
             className="bg-indigo-600 text-white px-8 py-3 rounded-lg hover:bg-indigo-700 transition duration-300 inline-block"
+            target="_blank"
+            rel="noopener noreferrer"
           >
-            Download Full Resume
+            Download Full Resume (Update link with your PDF)
           </a>
         </div>
       </div>

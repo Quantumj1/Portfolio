@@ -39,8 +39,11 @@ const About = () => {
 			{ name: 'React', color: 'from-cyan-500 to-blue-500' },
 			{ name: 'Tailwind CSS', color: 'from-pink-500 to-red-500' },
 			{ name: 'JavaScript', color: 'from-yellow-400 to-orange-400' },
-			{ name: 'TypeScript', color: 'from-indigo-500 to-purple-500' },
+			{ name: 'Bootstrap', color: 'from-indigo-500 to-purple-500' },
 			{ name: 'Vite', color: 'from-green-400 to-emerald-500' },
+			{ name: 'Git', color: 'from-gray-500 to-gray-700' },
+			{ name: 'Figma', color: 'from-pink-400 to-yellow-300' },
+			{ name: 'Accessibility', color: 'from-blue-400 to-green-400' },
 		];
 
 		return (

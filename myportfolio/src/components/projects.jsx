@@ -17,7 +17,7 @@ const Projects = () => {
       technologies: ['React', 'Node.js', 'Express', 'Tailwind CSS'],
       github: 'https://github.com/Quantumj1/Currency_Converter-capstone-.git',
       demo: 'https://currency-converter-demo.vercel.app'
-    }
+    },
   ];
 
   return (

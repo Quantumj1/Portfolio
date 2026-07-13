@@ -4,6 +4,7 @@ import bg from '../assets/bg.jpg';
 import { Link } from 'react-router-dom';
 import pat from '../images/pat.jpg';
 
+
 // Prefer explicit image in src/images if present
 let preferredImage = null;
 try {
@@ -49,17 +50,18 @@ const About = () => {
 		return (
 			<div className="bg-cover bg-center bg-fixed min-h-screen w-screen overflow-hidden relative z-0" 
 				  style={{ backgroundImage: `url(${bg})` }}>
-				<div className="max-w-5xl mx-auto">
+				<div className="max-w-7xl mx-auto px-4 sm:px-6 sm:px-3 lg:px-8 py-12 xs:mx-auto">
 					<div className="bg-white/80 backdrop-blur-md rounded-2xl shadow-xl px-8 mt-20 md:p-12 grid md:grid-cols-3 gap-8 
 					items-center">
 						{/* Profile column */}
 						{profileSrc && (
 							<div className="md:col-span-1 flex flex-col items-center md:items-start">
-								<div className="rounded-full p-1 bg-gradient-to-tr from-indigo-400 via-pink-400 to-yellow-300">
+
+								<div className="rounded-full p-1 bg-gradient-to-tr from-indigo-400 via-pink-400 to-yellow-300 sm:mt-2">
 									<img
 										src={pat}
 										alt="Profile"
-										className="w-44 h-44 rounded-full object-cover block shadow-2xl border-4 border-white"
+										className="w-44 h-44 rounded-full object-cover block shadow-2xl border-4 border-white "
 									/>
 								</div>
 								<h3 className="mt-6 text-2xl font-semibold text-gray-800">Hello, I'm Patrick Joseph Osafo-Parry</h3>
@@ -110,9 +112,13 @@ const About = () => {
 									<li>Improved performance and accessibility for multiple projects.</li>
 								</ul>
 							</div>
+							<div className='flex justify-between mt-8'>
+								<Link to="/home" className="text-indigo-600 hover:text-indigo-800 text-sm font-medium px-2 py-1 bg-blue-200 sm:mb-4 sm:mx-auto">Back</Link>
+							</div>
 						</div>
 					</div>
 				</div>
+				
 			</div>
 		);
 };

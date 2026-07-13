@@ -10,6 +10,15 @@ const Home = () => {
       style={{ backgroundImage: `url(${bgImage})` }}
     >
       <div className="grid grid-cols-1 lg:grid-cols-2 h-screen w-screen gap-0">
+        <div className=''>
+          <menu>
+            <ul>
+              <li><Link to="/about">About</Link></li>
+              <li><Link to="/projects">Projects</Link></li>
+              <li><Link to="/contact">Contact</Link></li>
+            </ul>
+          </menu>
+        </div>
         {/* Left half: Profile Image */}
         <div className="flex items-center justify-center p-8 bg-black/30 backdrop-blur-sm">
           <div className="text-center">
@@ -17,16 +26,17 @@ const Home = () => {
               src={profileImage} 
               alt="Profile" 
               className="w-64 h-64 md:w-80 md:h-80 lg:w-96 lg:h-96 object-cover rounded-2xl shadow-2xl border-4 border-white/50 
-              mx-auto mb-6 hover:scale-110 transition-all duration-500 hover:rotate-3"
+              mx-auto mb-6 hover:scale-110 transition-all duration-500 hover:rotate-3
+              sm:w-64 sm:h-64 md:w-80 md:h-80 lg:w-96 lg:h-96"
             />
           </div>
         </div>
         
         {/* Right half: Text and Buttons */}
-        <div className="flex flex-col items-center justify-center p-12 lg:p-16 bg-black/40 backdrop-blur-sm">
+        <div className="flex flex-col items-center justify-center p-12 lg:p-16 bg-black/40 backdrop-blur-sm sm:rounded-tr-3xl">
           <div className="text-center max-w-lg">
             <h1 className="text-4xl md:text-5xl lg:text-6xl font-black mb-8 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 
-            bg-clip-text text-transparent drop-shadow-2xl leading-tight">
+            bg-clip-text text-transparent drop-shadow-2xl leading-tight sm:px-12">
               Welcome to My Portfolio
             </h1>
             <p className="text-lg md:text-xl lg:text-2xl mb-12 text-white/90 drop-shadow-xl leading-relaxed font-light">

@@ -9,9 +9,9 @@ const Home = () => {
       className="bg-cover bg-center min-h-screen w-full overflow-hidden relative z-0"
       style={{ backgroundImage: `url(${bgImage})` }}
     >
-      <main className="flex flex-col md:flex-row">
+      <main className="flex flex-col md:flex-row h-[calc(100vh-60px)]">
         {/* Left: Profile Image (stacks on small screens) */}
-        <section className="flex items-center justify-center p-4 sm:p-8 bg-black/30 backdrop-blur-sm md:w-1/2">
+        <section className="flex items-center justify-center p-4 sm:p-8 bg-black/30 backdrop-blur-sm md:w-1/2 h-full">
           <div className="text-center w-full max-w-md">
             <img
               src={profileImage}
@@ -23,7 +23,7 @@ const Home = () => {
         </section>
 
         {/* Right: Text and Buttons */}
-        <section className="flex flex-col items-center justify-center p-6 sm:p-8 lg:p-16 bg-black/40 backdrop-blur-sm sm:rounded-tr-3xl md:w-1/2">
+        <section className="flex flex-col items-center justify-center p-6 sm:p-8 lg:p-16 bg-black/40 backdrop-blur-sm sm:rounded-tr-3xl md:w-1/2 h-full">
           <div className="text-center max-w-lg">
             <h1 className="text-3xl sm:text-4xl md:text-5xl lg:text-6xl font-black mb-4 sm:mb-8 bg-gradient-to-r from-indigo-400 via-purple-500 to-pink-500 bg-clip-text text-transparent drop-shadow-2xl leading-tight sm:px-4 md:px-8">
               Welcome to My Portfolio

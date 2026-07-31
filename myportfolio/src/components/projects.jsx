@@ -16,7 +16,7 @@ const Projects = () => {
       description: 'Real-time currency converter app with live exchange rates and historical data charts.',
       technologies: ['React', 'Node.js', 'Express', 'Tailwind CSS'],
       github: 'https://github.com/Quantumj1/Currency_Converter-capstone-.git',
-      demo: 'https://currency-converter-demo.vercel.app'
+      demo: 'https://currency-converter-capstone.vercel.app/'
     },
   ];
 

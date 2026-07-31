@@ -27,7 +27,7 @@ const Projects = () => {
         bg-clip-text text-transparent drop-shadow-2xl leading-tight">My Projects</h2>
         <div className='flex justify-center sm:justify-between mb-6 sm:mb-8'>
           <Link 
-              to="/home" 
+              to="/" 
               className="bg-white/20 backdrop-blur-md border-2 border-white/60 hover:bg-white/40 hover:border-white text-white font-bold
               py-3 sm:py-4 px-6 sm:px-10 rounded-full text-sm sm:text-lg transition-all duration-300 shadow-xl hover:shadow-2xl hover:scale-105 active:translate-y-1"
             >
